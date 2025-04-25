@@ -12,7 +12,7 @@ class CFG:
     device = "cpu"
     seed = 42
     generator = torch.Generator("cpu").manual_seed(seed)
-    image_gen_step = 3
+    image_gen_step = 35
     image_gen_model_id = "stabilityai/stable-diffusion-2"
     image_gen_size = (500 , 500)
     image_gen_guidance_scale = 9
